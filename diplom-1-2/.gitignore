@@ -1,0 +1,36 @@
+# Node / frontend
+node_modules/
+**/node_modules/
+dist/
+build/
+coverage/
+
+# Backend uploads and env
+backend/uploads/
+uploads/
+.env
+backend/.env
+backend/.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.parcel-cache/
+.cache/
+temp/
+tmp/
+
